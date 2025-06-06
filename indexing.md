@@ -3,9 +3,9 @@
 ## Motivation
 - At a higher level, we have some external documents that we want to load and put inside of a retriever, and the goal of this retriever is to fish out some document from external data store that is relevant to the question as input to the retriever.
 
-- To start, **embeddings** are numerical represenations of objects (like text, images, audio) that are represented as vectors aand are designed to capture meaningful relationships between them, since it is very easy to compare vectors as opposed to words. We also have two options for vector representation, **sparse vectors** or **dense vectors**.
+To start, **embeddings** are numerical represenations of objects (like text, images, audio) that are represented as vectors aand are designed to capture meaningful relationships between them, since it is very easy to compare vectors as opposed to words. We also have two options for vector representation, **sparse vectors** or **dense vectors**.
 
-- Sparse vectors can be stored more efficiently and allow us to perform syntax-based comparisons of two sequences. For example, given two sentences; "Bill ran from the giraffe toward the dolphin", and "Bill ran from the dolphin toward the giraffe" we would get a perfect (or near-perfect) match.
+Sparse vectors can be stored more efficiently and allow us to perform syntax-based comparisons of two sequences. For example, given two sentences; "Bill ran from the giraffe toward the dolphin", and "Bill ran from the dolphin toward the giraffe" we would get a perfect (or near-perfect) match.
 
 Why? Because despite the meaning of the sentences being different, they are composed of the same syntax (e.g., words). And so, sparse vectors would be closely or even perfectly matched (depending on the construction approach).
 
