@@ -10,17 +10,16 @@ in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words
 - sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization.
 - specialized algorithims exist to compute dot product over overlapping non-zero indices
 
-``` 
-  A = {2: 3, 4: 4}
-  B = {0: 1, 2: 2, 4: 5}
-  abs(A[2] - B[2]) + abs(A[4] - B[4]) = 3
-``` 
+```
+  consider this example: 
+    A = {2: 3, 4: 4}
+    B = {0: 1, 2: 2, 4: 5}
+    abs(A[2] - B[2]) + abs(A[4] - B[4]) = 3
+```
 
+dense vectors are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determibed a neural net and compressing these vectors is complex so they use more memory.
 
-
-
-
-
+<img width="809" alt="Screenshot 2025-06-05 at 23 05 26" src="https://github.com/user-attachments/assets/b1b698bb-b357-46fa-9bc0-d8b6ddfde656" />
 
 
 
