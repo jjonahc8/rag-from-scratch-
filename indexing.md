@@ -8,7 +8,7 @@ to start, `embeddings`are numerical represenations of objects (like text, images
 
 
 ### sparse vectors ### 
-in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words vector containg 10,000 entries may only contain 10 non-zero entries for a single sentence. If the data is high-dimensional with few active features, sparse vectors may be more efficient. sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization. specialized algorithims exist to compute dot product over overlapping non-zero indices
+in `sparse vectors` a very small amount of values are non-zero (ex. a bag-of-words vector containg 10,000 entries may only contain 10 non-zero entries for a single sentence. If the data is high-dimensional with few active features, sparse vectors may be more efficient. sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization. specialized algorithims exist to compute dot product over overlapping non-zero indices
 
 ```
   consider this example: 
@@ -19,7 +19,7 @@ in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words
 
 
 ### dense vectors ### 
-dense vectors are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determibed a neural net and compressing these vectors is complex so they use more memory. dense vectors are thus designed to capture semantics relationships between two vectors, hence when two things are similar their vector representations are close in vector space. 
+`dense vectors` are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determined a neural net and compressing these vectors is complex so they use more memory. dense vectors are thus designed to capture semantics relationships between two vectors, hence when two things are similar their vector representations are close in vector space. 
 
 <p align="center">
   <img width="809" alt="Screenshot 2025-06-05 at 23 05 26" src="https://github.com/user-attachments/assets/b1b698bb-b357-46fa-9bc0-d8b6ddfde656" />
