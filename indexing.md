@@ -8,7 +8,7 @@ to start, `embeddings`are numerical represenations of objects (like text, images
 
 
 ### sparse vectors ### 
-in `sparse vectors` a very small amount of values are non-zero (ex. a bag-of-words vector containg 10,000 entries may only contain 10 non-zero entries for a single sentence. If the data is high-dimensional with few active features, sparse vectors may be more efficient. sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization. specialized algorithims exist to compute dot product over overlapping non-zero indices
+in `sparse vectors` a very small amount of values are non-zero (ex. a bag-of-words vector containg 10,000 entries may only contain 10 non-zero entries for a single sentence. If the data is high-dimensional with few active features, sparse vectors may be more efficient. sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization. specialized algorithims exist to compute dot product over overlapping non-zero indices.
 
 ```
   consider this example: 
