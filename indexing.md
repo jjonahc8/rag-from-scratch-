@@ -10,11 +10,11 @@ in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words
 - sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization.
 - specialized algorithims exist to compute dot product over overlapping non-zero indices
 
-` 
+``` 
   A = {2: 3, 4: 4}
   B = {0: 1, 2: 2, 4: 5}
-  A[2] * B[2] + A[4] * B[4] 
-` 
+  abs(A[2] - B[2]) + abs(A[4] - B[4]) = 3
+``` 
 
 
 
