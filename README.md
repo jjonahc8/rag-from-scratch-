@@ -1,5 +1,7 @@
 # rag-from-scratch
-self-learning rag from scratch this summer! llms are pre-trained publicly available data, and have increasingly growing context windows that can learn from private and or external datastores. the basic rag pipeline invovles embedding a user query, retreiving relevant documents to the query, and passing the documents to an LLM for generation of an answer grounded in the retrieved context. 
+self-learning rag from scratch this summer! 
+
+llms are pre-trained publicly available data, and have increasingly growing context windows that can learn from private and or external datastores that these llms have never seen before. llms are one the center of a new kind of operating system, and it is increasingly critical that we can feed private data into them for processing. 
 
 this repo is for some of my notes, as well as notebooks to ground my understanding! 
 
