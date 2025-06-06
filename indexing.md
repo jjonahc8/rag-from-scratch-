@@ -6,10 +6,12 @@ to start, `embeddings`are numerical represenations of objects (like text, images
 
 ![image](https://github.com/user-attachments/assets/2b311786-2a4d-4597-b983-58a7fc30079c)
 
+
+### sparse vectors ### 
 in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words vector containg 10,000 entries may only contain 10 non-zero entries for a single sentence. 
 ### optimizations ### 
-sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization.
-specialized algorithims exist to compute dot product over overlapping non-zero indices
+- sparse vectors are memory efficient, since the only store non-zero indices and values, making it a huge memory optimization.
+- specialized algorithims exist to compute dot product over overlapping non-zero indices
 
 ```
   consider this example: 
@@ -18,6 +20,8 @@ specialized algorithims exist to compute dot product over overlapping non-zero i
     abs(A[2] - B[2]) + abs(A[4] - B[4]) = 3
 ```
 
+
+### dense vectors ### 
 dense vectors are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determibed a neural net and compressing these vectors is complex so they use more memory.
 
 <p align="center">
