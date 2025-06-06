@@ -22,7 +22,7 @@ in sparse vectors a very small amount of values are non-zero (ex. a bag-of-words
 
 
 ### dense vectors ### 
-dense vectors are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determibed a neural net and compressing these vectors is complex so they use more memory.
+dense vectors are stored in a high dimensional space, values are a majority non-zero. however, each dimension is rich and contians relevant information, determibed a neural net and compressing these vectors is complex so they use more memory. dense vectors are thus designed to capture semantics relationships between two vectors, hence when two things are similar their vector representations are close in vector space. 
 
 <p align="center">
   <img width="809" alt="Screenshot 2025-06-05 at 23 05 26" src="https://github.com/user-attachments/assets/b1b698bb-b357-46fa-9bc0-d8b6ddfde656" />
